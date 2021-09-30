@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zen+Dots" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .w3-zendots {
+            font-family: "Zen Dots", serif;
+        }
+    </style>
+</head>
+<body>
+
+<div class="w3-hide-small">
+    <!-- Navigation (Stays on Top) -->
+    <div class="w3-top w3-bar w3-black">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-red w3-zendots">Pratyush Kumar</a>
+        <div class="w3-right">
+            <a href="#about" class="w3-bar-item w3-button w3-hover-red w3-zendots">About</a>
+            <a href="#projects" class="w3-bar-item w3-button w3-hover-red w3-zendots">Projects
+            </a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hover-red w3-zendots">Contact</a>
+        </div>
+    </div>
+
+    <!-- Page Start -->
+    <div class="w3-content w3-black" id="home" style="height:100vh; max-width: 100%;">
+        <!-- Image in Display -->
+        <!-- <div class="w3-container" style="max-width:100%; max-height:100%;"> -->
+        <div class="w3-display-container" style="max-width:100%; max-height:100%;">
+            <video autoplay class="w3-center" id="respectback" loop muted style="max-width:100%; height:100vh;">
+                <source src="tunnel.mp4" type="video/mp4">
+            </video>
+            <div class="w3-display-middle w3-margin-top w3-center">
+                <h1 class="w3-wide">
+					<span class="w3-padding w3-red w3-text-black w3-opacity-mid w3-xxlarge w3-zendots w3-hide-small">
+						Pratyush Kumar
+					</span>
+                </h1>
+                <h1 class="w3-wide">
+                    <span class="w3-hide-small w3-text-white w3-zendots">Software Developer</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="w3-content" id="about" style="max-width:100%;">
+        <div class="w3-container w3-padding-32">
+            <h1 class="w3-border-bottom w3-border-grey w3-padding-16 w3-wide w3-center w3-zendots">About Me</h1>
+            <div class="w3-row w3-center">
+                <div class="w3-half w3-padding-large">
+                    <p>Hello world! I am Pratyush Kumar. I like to create software for developers. When I am not coding,
+                        you can find me
+                        playing chess, reading books, playing racquet sports or watching a superhero flick.</p>
+                    <h4 class="w3-zendots w3-center">Recent Experience</h4>
+                    <p><span class="w3-zendots">Summer Intern & Trainee</span>
+                        at TECHKRITI'21 IIT Kanpur | May - Jun 2021<br>
+                        A summer training and internship in web development, using the MEAN stack.
+                    </p>
+                    <h4 class="w3-zendots w3-center">My Education</h4>
+                    <p><span class="w3-zendots">National Institute of Technology, Kurukshetra</span>
+                        | B.Tech | Electronics & Communication<br>
+                        Studying here from 2019. Expected graduation in 2023.
+                    </p>
+                    <p><span class="w3-zendots">Army Public School, Kolkata</span>
+                        Secondary & Higher Secondary Education<br>
+                        Most of my interest in programming developed during these times.
+                    </p>
+                    <div class="w3-container w3-padding-32" id="skills">
+                        <div class="w3-row w3-center">
+                            <div class="w3-half w3-padding-large">
+                                <h4 class="w3-zendots">Programming Languages</h4>
+                                <ul class="w3-ul w3-card">
+                                    <li>C++</li>
+                                    <li>Java</li>
+                                    <li>Python3</li>
+                                    <li>SQL</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+
+                            <div class="w3-half w3-padding-large">
+                                <h4 class="w3-zendots">Tools & Technologies</h4>
+                                <ul class="w3-ul w3-card">
+                                    <li>Bootstrap</li>
+                                    <li>W3CSS</li>
+                                    <li>sqlite3</li>
+                                    <li>Angular</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-half w3-padding-large w3-hide-small">
+                    <img alt="A picture here" class="w3-greyscale-max w3-round w3-border w3-border-black" src="myimage.jpeg" style="max-width:100%; height: 70vh">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="w3-content w3-black" id="projects" style="max-width:100%;">
+        <div class="w3-container w3-padding-32">
+            <h1 class="w3-border-bottom w3-border-grey w3-padding-16 w3-wide w3-center w3-zendots">Projects</h1>
+        </div>
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card w3-white w3-border w3-border-white w3-round">
+                    <img alt="Project" src="zolomonimg.jpg" style="width:100%">
+                    <div class="w3-padding w3-zendots">Zolomon</div>
+                    <div class="w3-padding">A unit testing library for C++ inspired by the DC super-villain.
+                        It allows you to create tests for a function, and also allows for templates to be
+                        created to import data from .csv files.
+                    </div>
+                    <div class="w3-margin-top">
+                        <a href="https://github.com/PK-cod3ch3mist/Zolomon" class="w3-button w3-block w3-black w3-hover-red w3-zendots"><i class="fa fa-github"></i> Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card w3-white w3-border w3-border-white w3-round">
+                    <img alt="Project" src="mineg.png" style="width:100%">
+                    <div class="w3-padding w3-zendots">MineSweeper GUI</div>
+                    <div class="w3-padding">This one needs no introduction. It is a reimplementation of
+                        the classic minesweeper using C++ and SFML. Also, makefiles take care of all dependencies!
+                    </div>
+                    <div class="w3-margin-top">
+                        <a href="https://github.com/PK-cod3ch3mist/MineSweeperG" class="w3-button w3-block w3-black w3-hover-red w3-zendots"><i class="fa fa-github"></i> Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card w3-white w3-border w3-border-white w3-round">
+                    <img alt="Project" src="Picture1.png" style="width:100%">
+                    <div class="w3-padding w3-zendots">MineSweeper CLI</div>
+                    <div class="w3-padding">The same as before, only in glorious UNICODE symbols! Play
+                        minesweeper
+                        in the terminal, whenever bored! Created using C++.
+                    </div>
+                    <div class="w3-margin-top">
+                        <a href="https://github.com/PK-cod3ch3mist/MineSweeperCLI" class="w3-button w3-block w3-black w3-hover-red w3-zendots"><i class="fa fa-github"></i> Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card w3-white w3-border w3-border-white w3-round">
+                    <img alt="Project" src="pacman.png" style="width:100%">
+                    <div class="w3-padding w3-zendots">PAC-MAN</div>
+                    <div class="w3-padding">The classic pac-man, albeit a bit simpler, rendered using ASCII
+                        characters and ANSI escape sequences in the perfect platform...the terminal!
+                    </div>
+                    <div class="w3-margin-top">
+                        <a href="https://github.com/PK-cod3ch3mist/PAC-MAN_gameBuild" class="w3-button w3-block w3-black w3-hover-red w3-zendots"><i class="fa fa-github"></i> Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <!-- Contact -->
+    <div class="w3-content w3-margin-top" id="contact" style="max-width:100%;">
+        <div class="w3-container w3-center w3-padding-32 w3-middle">
+            <h1 class="w3-border-bottom w3-border-grey w3-padding-16 w3-wide w3-zendots">Contact</h1>
+            <i class="fa fa-map"></i> Bengaluru, India<br>
+            <i class="fa fa-phone"></i> +91 7666461157<br>
+            <i class="fa fa-envelope"></i> pratyushkumartheking@gmail.com<br><br>
+            <div class="w3-wide">
+                <a href="https://github.com/PK-cod3ch3mist"><i class="fa fa-github w3-xlarge w3-hover-opacity"></i></a>
+                <a href="https://www.linkedin.com/in/pratyush-kumar-alpha01/"><i class="fa fa-linkedin w3-xlarge w3-hover-opacity"></i></a>
+                <a href="https://www.facebook.com/pratyushkumartheking/"><i class="fa fa-facebook-official w3-xlarge w3-hover-opacity"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="w3-hide-medium w3-hide-large">
+    <div class="w3-content w3-black" style="max-width:100%; height:100vh;">
+        <!-- Image in Display -->
+        <!-- <div class="w3-container" style="max-width:100%; max-height:100%;"> -->
+        <div class="w3-display-container" style="max-width:100%; max-height:100%;">
+            <video autoplay class="w3-center" loop muted style="max-width:100%; height:100vh;">
+                <source src="tunnelsmall.mp4" type="video/mp4">
+            </video>
+            <div class="w3-display-middle w3-margin-top w3-center">
+                <h1 class="w3-wide">
+                    <span class="w3-padding w3-black w3-text-red w3-opacity-min w3-wide w3-zendots">Pratyush</span>
+                    <span class="w3-padding w3-black w3-text-red w3-opacity-min w3-wide w3-zendots">Kumar</span>
+                </h1>
+                <h3 class="w3-wide w3-padding w3-text-white w3-zendots">Software Developer</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="w3-content w3-padding-16" style="max-width:100%;">
+        <div class="w3-container w3-padding-32">
+            <h1 class="w3-border-bottom w3-border-grey w3-padding-16 w3-wide w3-center w3-zendots">About Me</h1>
+            <div class="w3-row w3-center">
+                <div class="w3-padding-large">
+                    <p>Hello world! I am Pratyush Kumar. I like to create software for developers. When I am not coding,
+                        you can find me
+                        playing chess, reading books, playing racquet sports or watching a superhero flick.</p>
+                    <h4 class="w3-zendots w3-center">Recent Experience</h4>
+                    <p><span class="w3-zendots">Summer Intern & Trainee</span>
+                        at TECHKRITI'21 IIT Kanpur | May - Jun 2021<br>
+                        A summer training and internship in web development, using the MEAN stack.
+                    </p>
+                    <h4 class="w3-zendots w3-center">My Education</h4>
+                    <p><span class="w3-zendots">National Institute of Technology, Kurukshetra</span>
+                        | B.Tech | Electronics & Communication<br>
+                        Studying here from 2019. Expected graduation in 2023.
+                    </p>
+                    <p><span class="w3-zendots">Army Public School, Kolkata</span>
+                        Secondary & Higher Secondary Education<br>
+                        Most of my interest in programming developed during these times.
+                    </p>
+                    <div class="w3-container w3-padding-32">
+                        <div class="w3-row w3-center">
+                            <div class="w3-half w3-padding-large">
+                                <h4 class="w3-zendots">Programming Languages</h4>
+                                <ul class="w3-ul w3-card">
+                                    <li>C++</li>
+                                    <li>Java</li>
+                                    <li>Python3</li>
+                                    <li>SQL</li>
+                                </ul>
+                            </div>
+
+                            <div class="w3-half w3-padding-large">
+                                <h4 class="w3-zendots">Tools & Technologies</h4>
+                                <ul class="w3-ul w3-card">
+                                    <li>Bootstrap</li>
+                                    <li>W3CSS</li>
+                                    <li>sqlite3</li>
+                                    <li>Angular</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="w3-content w3-padding-16" style="max-width:100%;">
+        <div class="w3-container w3-padding-32">
+            <h1 class="w3-border-bottom w3-border-grey w3-padding-16 w3-wide w3-center w3-zendots">Projects</h1>
+        </div>
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card w3-white w3-border w3-border-white w3-round">
+                    <img alt="Project" src="zolomonimg.jpg" style="width:100%">
+                    <div class="w3-padding w3-zendots">Zolomon</div>
+                    <div class="w3-padding">A unit testing library for C++ inspired by the DC super-villain.
+                        It allows you to create tests for a function, and also allows for templates to be
+                        created to import data from .csv files.
+                    </div>
+                    <div class="w3-margin-top">
+                        <a href="https://github.com/PK-cod3ch3mist/Zolomon" class="w3-button w3-block w3-black w3-hover-red w3-zendots"><i class="fa fa-github"></i> Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card w3-white w3-border w3-border-white w3-round">
+                    <img alt="Project" src="mineg.png" style="width:100%">
+                    <div class="w3-padding w3-zendots">MineSweeper GUI</div>
+                    <div class="w3-padding">This one needs no introduction. It is a reimplementation of
+                        the classic minesweeper using C++ and SFML. Also, makefiles take care of all dependencies!
+                    </div>
+                    <div class="w3-margin-top">
+                        <a href="https://github.com/PK-cod3ch3mist/MineSweeperG" class="w3-button w3-block w3-black w3-hover-red w3-zendots"><i class="fa fa-github"></i> Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card w3-white w3-border w3-border-white w3-round">
+                    <img alt="Project" src="Picture1.png" style="width:100%">
+                    <div class="w3-padding w3-zendots">MineSweeper CLI</div>
+                    <div class="w3-padding">The same as before, only in glorious UNICODE symbols! Play
+                        minesweeper
+                        in the terminal, whenever bored! Created using C++.
+                    </div>
+                    <div class="w3-margin-top">
+                        <a href="https://github.com/PK-cod3ch3mist/MineSweeperCLI" class="w3-button w3-block w3-black w3-hover-red w3-zendots"><i class="fa fa-github"></i> Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card w3-white w3-border w3-border-white w3-round">
+                    <img alt="Project" src="pacman.png" style="width:100%">
+                    <div class="w3-padding w3-zendots">PAC-MAN</div>
+                    <div class="w3-padding">The classic pac-man, albeit a bit simpler, rendered using ASCII
+                        characters and ANSI escape sequences in the perfect platform...the terminal!
+                    </div>
+                    <div class="w3-margin-top">
+                        <a href="https://github.com/PK-cod3ch3mist/PAC-MAN_gameBuild" class="w3-button w3-block w3-black w3-hover-red w3-zendots"><i class="fa fa-github"></i> Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="w3-content w3-padding-16" style="max-width:100%;">
+        <div class="w3-container w3-center w3-padding-32 w3-middle">
+            <h1 class="w3-border-bottom w3-border-grey w3-padding-16 w3-wide w3-zendots">Contact</h1>
+            <i class="fa fa-map"></i> Bengaluru, India<br>
+            <i class="fa fa-phone"></i> +91 7666461157<br>
+            <i class="fa fa-envelope"></i> pratyushkumartheking@gmail.com<br><br>
+            <div class="w3-wide">
+                <a href="https://github.com/PK-cod3ch3mist"><i class="fa fa-github w3-xlarge w3-hover-opacity"></i></a>
+                <a href="https://www.linkedin.com/in/pratyush-kumar-alpha01/"><i class="fa fa-linkedin w3-xlarge w3-hover-opacity"></i></a>
+                <a href="https://www.facebook.com/pratyushkumartheking/"><i class="fa fa-facebook-official w3-xlarge w3-hover-opacity"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+</script>
+</body>
+</html>
