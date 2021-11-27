@@ -5,7 +5,7 @@
 <title>Pratyush Kumar</title>
 <style>
 	@media (prefers-color-scheme: dark){
-		body {color:#fff;background:#000}
+		body {color: #eee; background:#111}
 		a:link {color:#9cf}
 		a:hover, a:visited:hover {color:#cef}
 		a:visited {color:#c9f}
@@ -19,19 +19,29 @@
 	h1,h2,h3 {
 		line-height:1.2;
 	}
+	section, footer {
+		border: 1px solid; 
+		padding: 10px;
+		box-shadow: 5px 10px #000;
+	}
+	@media (prefers-color-scheme: dark){
+		section, footer {box-shadow: 5px 10px #ccc;}
+		summary {color: #000}
+		aside {color: #000}
+	}
 	@media print{
 		body{
 			max-width:none
 		}
 	}
 </style>
-<header style="padding: 20px; background-color: #bbb; border: 1px solid; outline: none; box-shadow: 5px 10px #000;">
+<header id="heading" style="padding: 20px; background-color: #aaa; border: 1px solid; outline: none; box-shadow: 5px 10px #000;">
 	<h1 style="color: #fff;text-shadow: 2px 4px #000;">Pratyush Kumar</h1>
 	<aside>Developer, student, hardware enthusiast, but most importantly, a <em>learner</em>.</aside>
 </header>
 <br>
 <article>
-<section id="about" style="border: 1px solid; padding: 10px; box-shadow: 5px 10px #000;">
+<section id="about">
 	<h2>About Me</h2>
 	<p>I am Pratyush Kumar. I like to create software for developers and creative professionals (though I sometimes also pursue projects just because they are too cool to overlook). I am an avid reader, and in fact when I am not coding, you can find me reading books, playing chess, playing racquet sports or watching a superhero flick.</p>
 	<hr>
@@ -74,10 +84,10 @@
 	<p>Apart from the above, I am also learning Go and Rust and plan to use it soon in my projects.</p>
 </section>
 <br>
-<section id="projects" style="border: 1px solid; padding: 10px; box-shadow: 5px 10px #000;">
+<section id="projects">
 	<h2>My Projects</h2>
 	<details>
-		<summary style="padding: 20px; background-color: #bbb; border: 1px solid; outline: none;">Testing Library</summary>
+		<summary style="padding: 20px; background-color: #aaa; border: 1px solid; outline: none;">Testing Library</summary>
 	<h3 id="use-https">Zolomon</h3>
 	<p>
 		A unit testing library for C++ inspired by the DC super-villain. It allows you to create tests for a function, and also allows for templates to be created to import data from .csv files.
@@ -86,7 +96,7 @@
 	</details>
 	<br>
 	<details>
-		<summary style="padding: 20px; background-color: #bbb; border: 1px solid; outline: none;">Terminal Based Media Player</summary>
+		<summary style="padding: 20px; background-color: #aaa; border: 1px solid; outline: none;">Terminal Based Media Player</summary>
 	<h3 id="compression">ASCII Media Player</h3>
 	<p>
 		A Python program that converts images and videos to ASCII graphics with true-colour support. It also supports subtitles! So you won't have to leave the terminal even when watching movies.
@@ -97,7 +107,7 @@
 	</details>
 	<br>
 	<details>
-	<summary style="padding: 20px; background-color: #bbb; border: 1px solid; outline: none;">Recreating Games</summary>
+	<summary style="padding: 20px; background-color: #aaa; border: 1px solid; outline: none;">Recreating Games</summary>
 	<h3>Minesweeper CLI</h3>
 	<p>
 		The same as the original, only in glorious UNICODE symbols! Play minesweeper in the terminal, whenever bored! Created using C++.
@@ -123,7 +133,7 @@
 </section>
 <br>
 </article>
-<footer id="contact" style="border: 1px solid; padding: 10px; box-shadow: 5px 10px #000;">
+<footer id="contact">
 	<h2>Contact</h2>
 	<a href="mailto:pratyushkumar23@outlook.com"><img alt="Mail" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
 	<a href="https://www.linkedin.com/in/pratyush-kumar-alpha01/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
