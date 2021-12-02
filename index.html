@@ -5,6 +5,10 @@
 <title>Pratyush Kumar</title>
 <style>
 	body{
+		background-image: url(assets/Work.png), url(assets/Coder.png), url(assets/Video.png), url(assets/Stay.png), url(assets/Pair.png), url(assets/Message.png);
+		background-position: 2% 2%, 98% 24%, 2% 45%, 98% 65%, 2% 80%, 98% 95%;
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+		background-size: 500px, 500px, 500px, 500px, 500px, 500px;
 		margin:1em auto;
 		max-width:40em;
 		padding:0 .62em;
@@ -14,6 +18,7 @@
 		line-height:1.2;
 	}
 	section, footer {
+		opacity: 90%;
         background-color: #fefefe;
 		border: 1px solid; 
         border-radius: 5px;
@@ -26,7 +31,7 @@
 		}
 	}
 </style>
-<header id="heading" style="padding: 20px; background-color: #bbb; border: 1px solid; border-radius: 5px; outline: none; box-shadow: 5px 10px #2e2e2e">
+<header id="heading" style="padding: 20px; opacity: 90%; background-color: #bbb; border: 1px solid; border-radius: 5px; outline: none; box-shadow: 5px 10px #2e2e2e">
 	<h1 style="color: #fefefe;text-shadow: 2px 4px #000;">Pratyush Kumar</h1>
 	<aside>Developer, student, hardware enthusiast, but most importantly, a <em>learner</em>.</aside>
 </header>
@@ -83,50 +88,47 @@
 <br>
 <section id="projects">
 	<h2>My Projects</h2>
-	<details>
-		<summary style="padding: 20px; background-color: #bbb; border: 1px solid; border-radius: 5px; outline: none;">Testing Library</summary>
-	<h3 id="use-https">Zolomon</h3>
-	<p>
-		A unit testing library for C++ inspired by the DC super-villain. It allows you to create tests for a function, and also allows for templates to be created to import data from .csv files.
-	</p>
-	<p><a href="https://github.com/PK-cod3ch3mist/Zolomon">Learn more</a></p>
-	</details>
-	<br>
-	<details>
-		<summary style="padding: 20px; background-color: #bbb; border: 1px solid; border-radius: 5px; outline: none;">Terminal Based Media Player</summary>
-	<h3 id="compression">ASCII Media Player</h3>
-	<p>
-		A Python program that converts images and videos to ASCII graphics with true-colour support. It also supports subtitles! So you won't have to leave the terminal even when watching movies.
-	</p>
-	<p>
-		<a href="https://github.com/PK-cod3ch3mist/ASCII-Media-Player">Learn more</a>
-	</p>
-	</details>
-	<br>
-	<details>
-	<summary style="padding: 20px; background-color: #bbb; border: 1px solid; border-radius: 5px; outline: none;">Recreating Games</summary>
-	<h3>Minesweeper CLI</h3>
-	<p>
-		The same as the original, only in glorious UNICODE symbols! Play minesweeper in the terminal, whenever bored! Created using C++.
-	</p>
-	<p>
-		<a href="https://github.com/PK-cod3ch3mist/MineSweeperCLI">Learn more</a>
-	</p>
-	<h3>Pac-Man</h3>
-	<p>
-		The classic pac-man made using C++, albeit a bit simpler, rendered using ASCII characters and ANSI escape sequences in the perfect platform...the terminal!
-	</p>
-	<p>
-		<a href="https://github.com/PK-cod3ch3mist/PAC-MAN_gameBuild">Learn more</a>
-	</p>
-	<h3>Minesweeper GUI</h3>
-	<p>
-		A remake of the classic minesweeper using C++ and SFML. Also, makefiles take care of all dependencies!
-	</p>
-	<p>
-		<a href="https://github.com/PK-cod3ch3mist/MineSweeperG">Learn more</a>
-	</p>
-	</details>
+	<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+		<div style="width: 300px;border: 1px solid; padding: 10px; margin: 10px;">
+		<h3>Zolomon Testing Library</h3>
+		<p style="text-align: justify;">
+			A unit testing library for C++ inspired by the DC super-villain. It allows you to create tests for a function, and also allows for templates to be created to import data from .csv files.
+		</p>
+		<p><a href="https://github.com/PK-cod3ch3mist/Zolomon">Learn more</a></p>
+		</div>
+		<div style="width: 300px; border: 1px solid; padding: 10px; margin: 10px;">
+		<h3>ASCII Media Player</h3>
+		<p style="text-align: justify;">
+			A Python program that converts images and videos to ASCII graphics with true-colour support. It also supports subtitles! So you won't have to leave the terminal even when watching movies.
+		</p>
+		<p>
+			<a href="https://github.com/PK-cod3ch3mist/ASCII-Media-Player">Learn more</a>
+		</p>
+		</div>
+		<div style="width: 644px; border: 1px solid; padding: 10px; margin: 10px;">
+		<h3>Recreating Games</h3>
+		<h4>Minesweeper CLI</h3>
+		<p>
+			The same as the original, only in glorious UNICODE symbols! Play minesweeper in the terminal, whenever bored! Created using C++.
+		</p>
+		<p>
+			<a href="https://github.com/PK-cod3ch3mist/MineSweeperCLI">Learn more</a>
+		</p>
+		<h4>Pac-Man</h4>
+		<p>
+			The classic pac-man made using C++, albeit a bit simpler, rendered using ASCII characters and ANSI escape sequences in the perfect platform...the terminal!
+		</p>
+		<p>
+			<a href="https://github.com/PK-cod3ch3mist/PAC-MAN_gameBuild">Learn more</a>
+		</p>
+		<h4>Minesweeper GUI</h4>
+		<p>
+			A remake of the classic minesweeper using C++ and SFML. Also, makefiles take care of all dependencies!
+		</p>
+		<p>
+			<a href="https://github.com/PK-cod3ch3mist/MineSweeperG">Learn more</a>
+		</p>
+	</div>
 </section>
 <br>
 </article>
