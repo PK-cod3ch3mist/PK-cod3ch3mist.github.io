@@ -1,163 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;700&display=swap"
-          rel="stylesheet">
+        rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>Pratyush Kumar's Portfolio</title>
 </head>
+
 <body>
-<nav>
-    <ul>
-        <li>
-            <h1>
-                <a href="index.html">
-                    <span aria-hidden="true" class="fas fa-laptop-code"></span>
-                    <span>Pratyush Kumar</span>
+    <nav>
+        <ul>
+            <li>
+                <h1>
+                    <a href="index.html">
+                        <span aria-hidden="true" class="fas fa-laptop-code"></span>
+                        <span>Pratyush Kumar</span>
+                    </a>
+                </h1>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/pratyush-kumar-alpha01" target="_blank">
+                    <span aria-hidden="true" class="fab fa-linkedin"></span>
+                    <span class="sr-only">Linkedin</span>
                 </a>
-            </h1>
-        </li>
-        <li>
-            <a href="#projects">Projects</a>
-        </li>
-        <li>
-            <a href="about.html">About</a>
-        </li>
-        <li>
-            <a href="#contact">Contact</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/pratyush-kumar-alpha01" target="_blank">
-                <span aria-hidden="true" class="fab fa-linkedin"></span>
-                <span class="sr-only">Linkedin</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/PK-cod3ch3mist" target="_blank">
-                <span aria-hidden="true" class="fab fa-github-square"></span>
-                <span class="sr-only">GitHub</span>
-            </a>
-        </li>
-        <li>
-            <a class="button" href="https://www.dropbox.com/s/t5i8sh2jzdlptfw/Pratyush%20Kumar%20SDE%20Resume.pdf?dl=0"
-               target="_blank">Resume</a>
-        </li>
-    </ul>
-</nav>
+            </li>
+            <li>
+                <a href="https://github.com/PK-cod3ch3mist" target="_blank">
+                    <span aria-hidden="true" class="fab fa-github-square"></span>
+                    <span class="sr-only">GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a class="button"
+                    href="https://www.dropbox.com/s/t5i8sh2jzdlptfw/Pratyush%20Kumar%20SDE%20Resume.pdf?dl=0"
+                    target="_blank">Resume</a>
+            </li>
+        </ul>
+    </nav>
 
-<!-- Intro section -->
-<section id="intro">
-    <p class="name">Hi, my name is <span>Pratyush Kumar</span></p>
+    <!-- Intro section -->
+    <section id="intro">
+        <p class="name">Hi, my name is <span>Pratyush Kumar</span></p>
 
-    <h2>I create software applications</h2>
+        <h2>I create software applications</h2>
 
-    <p>I'm a student at National Institute of Technology, Kurukshetra. I am also a programmer with knowledge of C++,
-        Python, Java and Web Development (HTML, CSS, JavaScript).</p>
+        <p>I'm a student at National Institute of Technology, Kurukshetra. I am also a programmer with knowledge of C++,
+            Python, Java and Web Development (HTML, CSS, JavaScript).</p>
 
-    <p>Currently, I'm a software engineer intern at Analog Devices, Inc.</p>
-</section>
+        <!-- <p>Currently, I'm a software engineer intern at Analog Devices, Inc.</p> -->
+    </section>
 
-<!-- Projects Section -->
-<div class="gradient"></div>
+    <!-- Add a work experience section -->
 
-<div class="section-dkblue">
-    <section id="projects">
-        <h2>Projects I'm proud of</h2>
-        <article>
-            <div class="text">
-                <h4>Latest Project</h4>
-                <h3>ASCII Media Player</h3>
-                <p class="blackbox">A Python3 script that can convert a video or image into ASCII character based
-                    graphics (with 24-bit color support). It can also read subtitles from a given SRT file to display
-                    alongside the ASCII graphics. The adjoining image shows a sample output of the script when given the
-                    avengers poster image as input. Learn more about <a
+    <!-- Projects Section -->
+    <div class="gradient"></div>
+
+    <div class="section-dkblue">
+        <section id="projects">
+            <h2>Projects I'm proud of</h2>
+            <article>
+                <div class="text">
+                    <h4>Latest Project</h4>
+                    <h3>ASCII Media Player</h3>
+                    <p class="blackbox">A Python3 script that can convert a video or image into ASCII character based
+                        graphics (with 24-bit color support). It can also read subtitles from a given SRT file to
+                        display
+                        alongside the ASCII graphics. The adjoining image shows a sample output of the script when given
+                        the
+                        avengers poster image as input. Learn more about <a
                             href="https://github.com/PK-cod3ch3mist/ASCII-Media-Player">ASCII Media Player</a></p>
-                <h4>Technologies used:</h4>
-                <ul>
-                    <li>Python3</li>
-                    <li>OpenCV</li>
-                    <li>PySRT</li>
-                    <li>Pillow</li>
-                </ul>
-            </div>
-            <img alt="Screenshot of the Wall of Wonder." src="./images/amp.webp"/>
-        </article>
-        <article class="reverse">
-            <div class="text">
-                <h4>C++ Library</h4>
-                <h3>Zolomon Testing Library</h3>
-                <p class="blackbox">A single header C++ testing library that also allows for time duration checks. I am
-                    currently working on a feature to import testing data from spreadsheets and JSON files. The image
-                    shows the working and use of Zolomon library along with a sample output. Learn more about <a
+                    <h4>Technologies used:</h4>
+                    <ul>
+                        <li>Python3</li>
+                        <li>OpenCV</li>
+                        <li>PySRT</li>
+                        <li>Pillow</li>
+                    </ul>
+                </div>
+                <img alt="Screenshot of the Wall of Wonder." src="./images/amp.webp" />
+            </article>
+            <article class="reverse">
+                <div class="text">
+                    <h4>C++ Library</h4>
+                    <h3>Zolomon Testing Library</h3>
+                    <p class="blackbox">A single header C++ testing library that also allows for time duration checks. I
+                        am
+                        currently working on a feature to import testing data from spreadsheets and JSON files. The
+                        image
+                        shows the working and use of Zolomon library along with a sample output. Learn more about <a
                             href="https://github.com/PK-cod3ch3mist/Zolomon">Zolomon Testing Library</a></p>
-                <h4>Technologies used:</h4>
-                <ul>
-                    <li>C++</li>
-                    <li>Template Meta-Programming</li>
-                </ul>
-            </div>
-            <img alt="Screenshot of the Wall of Wonder." src="./images/zolomon.webp"/>
-        </article>
-        <article>
-            <div class="text">
-                <h4>Games And Fun Stuff</h4>
-                <h3>Minesweeper &amp; Pacman</h3>
-                <p class="blackbox">An implementation in both command line interface and graphical interface of the
-                    classic minesweeper game. The Pacman implementation overcomes the problem of waiting for input while moving elements through concurrent functions, rather than using the curses library. The image shows the gameplay (screenshots) of the CLI Pacman and the GUI
-                    Minesweeper. Learn more about <a href="https://github.com/PK-cod3ch3mist/ASCII-Media-Player">Minesweeper</a>
-                    and <a href="https://github.com/PK-cod3ch3mist/PAC-MAN_gameBuild">Pacman</a> Implementation</p>
-                <h4>Technologies used:</h4>
-                <ul>
-                    <li>C++</li>
-                    <li>SFML (Multimedia Library)</li>
-                </ul>
-            </div>
-            <img alt="Screenshot of the Wall of Wonder." src="./images/pacmine.webp"/>
-        </article>
-    </section>
-</div>
+                    <h4>Technologies used:</h4>
+                    <ul>
+                        <li>C++</li>
+                        <li>Template Meta-Programming</li>
+                    </ul>
+                </div>
+                <img alt="Screenshot of the Wall of Wonder." src="./images/zolomon.webp" />
+            </article>
+            <article>
+                <div class="text">
+                    <h4>Games And Fun Stuff</h4>
+                    <h3>Minesweeper &amp; Pacman</h3>
+                    <p class="blackbox">An implementation in both command line interface and graphical interface of the
+                        classic minesweeper game. The Pacman implementation overcomes the problem of waiting for input
+                        while moving elements through concurrent functions, rather than using the curses library. The
+                        image shows the gameplay (screenshots) of the CLI Pacman and the GUI
+                        Minesweeper. Learn more about <a
+                            href="https://github.com/PK-cod3ch3mist/ASCII-Media-Player">Minesweeper</a>
+                        and <a href="https://github.com/PK-cod3ch3mist/PAC-MAN_gameBuild">Pacman</a> Implementation</p>
+                    <h4>Technologies used:</h4>
+                    <ul>
+                        <li>C++</li>
+                        <li>SFML (Multimedia Library)</li>
+                    </ul>
+                </div>
+                <img alt="Screenshot of the Wall of Wonder." src="./images/pacmine.webp" />
+            </article>
+        </section>
+    </div>
 
-<div class="gradient"></div>
+    <div class="gradient"></div>
 
-<!-- Contact section -->
-<div class="section-plum">
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>I am always interested in new opportunites to write code, creating software and work on pathbreaking
-            technologies with fellow computer programmers.</p>
-        <p><a class="button" href="mailto:pratyushkumar23@outlook.com">Email me</a></p>
-    </section>
-</div>
+    <!-- Contact section -->
+    <div class="section-plum">
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>I am always interested in new opportunites to write code, creating software and work on pathbreaking
+                technologies with fellow computer programmers.</p>
+            <p><a class="button" href="mailto:pratyushkumar23@outlook.com">Email me</a></p>
+        </section>
+    </div>
 
-<div class="gradient"></div>
+    <div class="gradient"></div>
 
-<!-- Page footer -->
-<footer>
-    <h2>Pratyush Kumar &middot; Student</h2>
-    <ul>
-        <li>
-            <a href="https://www.linkedin.com/in/pratyush-kumar-alpha01" target="_blank">
-                <span aria-hidden="true" class="fab fa-linkedin"></span>
-                <span class="sr-only">Linkedin</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/PK-cod3ch3mist" target="_blank">
-                <span aria-hidden="true" class="fab fa-github-square"></span>
-                <span class="sr-only">GitHub</span></a>
-        </li>
-        <li>
-            <a href="mailto:pratyushkumar23@outlook.com">
-                <span aria-hidden="true" class="fas fa-envelope"></span>
-                <span class="sr-only">Email</span></a>
-        </li>
-    </ul>
-    <p><small>&copy; 2021 Pratyush Kumar. All rights reserved.</small></p>
-</footer>
+    <!-- Page footer -->
+    <footer>
+        <h2>Pratyush Kumar &middot; Student</h2>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/pratyush-kumar-alpha01" target="_blank">
+                    <span aria-hidden="true" class="fab fa-linkedin"></span>
+                    <span class="sr-only">Linkedin</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/PK-cod3ch3mist" target="_blank">
+                    <span aria-hidden="true" class="fab fa-github-square"></span>
+                    <span class="sr-only">GitHub</span></a>
+            </li>
+            <li>
+                <a href="mailto:pratyushkumar23@outlook.com">
+                    <span aria-hidden="true" class="fas fa-envelope"></span>
+                    <span class="sr-only">Email</span></a>
+            </li>
+        </ul>
+        <p><small>&copy; 2022 Pratyush Kumar. All rights reserved.</small></p>
+    </footer>
 </body>
+
 </html>
