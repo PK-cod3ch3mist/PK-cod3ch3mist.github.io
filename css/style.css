@@ -111,10 +111,7 @@ img {
 .name span {
     font-family: var(--sans);
     font-size: 4rem;
-    /*color: var(--purple);*/
-    background: linear-gradient(141deg, var(--purple), var(--orange) 60%, var(--orange));
-    background-clip: text;
-    color: transparent;
+    color: var(--purple);
     display: block;
     font-weight: 700;
 }
