@@ -75,21 +75,18 @@ img {
 /* background color divs */
 
 .section-plum {
-    background: rgb(241, 250, 140);
-    background: linear-gradient(131deg, rgba(241, 250, 140, 1) 0%, rgba(249, 213, 122, 1) 30%, rgba(255, 184, 108, 1) 71%, rgba(255, 134, 204, 1) 100%);
+    background: var(--yellow);
+    background: linear-gradient(141deg, var(--yellow) 0%, var(--pink) 100%);
     border-radius: 10px;
     height: fit-content;
     width: 60%;
     margin: auto;
+    box-shadow: 0px 4px 16px var(--darkBackground);
 }
 
 .section-dkblue {
     background-color: var(--background);
-}
-
-.gradient {
-    background: linear-gradient(90deg, rgba(160, 26, 125, 1) 0%, rgba(0, 191, 255, 1) 100%);
-    height: 3px;
+    padding: 10px 0 30px 0;
 }
 
 
@@ -114,7 +111,10 @@ img {
 .name span {
     font-family: var(--sans);
     font-size: 4rem;
-    color: var(--purple);
+    /*color: var(--purple);*/
+    background: linear-gradient(141deg, var(--purple), var(--orange) 60%, var(--orange));
+    background-clip: text;
+    color: transparent;
     display: block;
     font-weight: 700;
 }
@@ -227,6 +227,27 @@ nav [class*="fa-"]:hover {
     margin: 0;
 }
 
+/* work section */
+#work {
+    padding: 4rem 1rem;
+}
+
+#work h2 {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+
+#work h3 {
+    color: var(--darkBackground);
+}
+
+#work h4 {
+    font-size: 1rem;
+    font-family: var(--mono);
+    color: var(--purple);
+    margin: 0;
+}
+
 #about {
     padding: 4rem 1rem;
 }
@@ -255,6 +276,26 @@ nav [class*="fa-"]:hover {
     background-color: var(--cardBackground);
     font-size: 1rem;
     line-height: 1.5;
+    /*box-shadow: 0px 4px 32px -12px var(--green);*/
+}
+
+#work .blackbox {
+    /*border: 2px solid var(--yellow);*/
+    border: 0px;
+    font-size: var(--font-size);
+    background: var(--yellow);
+    background: linear-gradient(141deg, var(--yellow) 0%, var(--pink) 100%);
+    color: var(--darkBackground);
+    box-shadow: 0px 4px 16px var(--darkBackground);
+}
+
+#work .blackbox p {
+    font-size: 1rem;
+}
+
+#work .blackbox h4 {
+    color: var(--darkBackground);
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 #projects ul {
@@ -270,10 +311,13 @@ nav [class*="fa-"]:hover {
 
 #projects img {
     margin: 2rem 0 4rem 0;
-    padding: 4px;
-    background: rgb(80, 250, 123);
-    background: linear-gradient(141deg, rgba(80, 250, 123, 1) 30%, rgba(139, 233, 253, 1) 100%);
-    border-radius: 25px;
+    padding: 2px;
+    /*border: 2px solid var(--green);*/
+    background: var(--green);
+    /*background: var(--cardBackground);*/
+    background: linear-gradient(141deg, var(--green) 30%, var(--cyan) 100%);
+    border-radius: 10px;
+    /*box-shadow: 0px 4px 32px -12px var(--green);*/
 }
 
 #about ul {
@@ -289,10 +333,10 @@ nav [class*="fa-"]:hover {
 
 #about img {
     margin: 2rem 0 4rem 0;
-    padding: 4px;
-    background: rgb(80, 250, 123);
-    background: linear-gradient(141deg, rgba(80, 250, 123, 1) 30%, rgba(139, 233, 253, 1) 100%);
-    border-radius: 25px;
+    padding: 2px;
+    background: var(--green);
+    background: linear-gradient(141deg, var(--green) 30%, var(--cyan) 100%);
+    border-radius: 10px;
 }
 
 /* footer section */
@@ -324,12 +368,22 @@ footer ul {
         margin: 0 auto;
     }
 
+    #work {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
     #about {
         max-width: 1200px;
         margin: 0 auto;
     }
 
     #projects img {
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+
+    #work img {
         grid-column: 1/6;
         grid-row: 1/2;
     }
@@ -344,6 +398,32 @@ footer ul {
         grid-row: 1/2;
         order: 2;
         text-align: right;
+    }
+
+    #work .text {
+        grid-column: 11/11;
+        grid-row: 1/1;
+        text-align: justify;
+    }
+
+    #work .w-head {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+    }
+
+    #work .w-head h3 {
+        grid-column: 1/11;
+        grid-row: 1/1;
+        order: 1;
+        text-align: left;
+    }
+
+    #work .w-head h4 {
+        grid-column: 8/11;
+        grid-row: 1/1;
+        order: 2;
+        text-align: center;
+        padding: 4px 0;
     }
 
     #projects ul {
