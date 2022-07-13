@@ -217,7 +217,7 @@ nav [class*="fa-"]:hover {
 }
 
 #projects h3 {
-    color: var(--green);
+    color: var(--yellow);
 }
 
 #projects h4 {
@@ -258,7 +258,7 @@ nav [class*="fa-"]:hover {
 }
 
 #about h3 {
-    color: var(--green);
+    color: var(--yellow);
 }
 
 #about h4 {
@@ -270,7 +270,7 @@ nav [class*="fa-"]:hover {
 
 .blackbox {
     padding: 1rem;
-    border: 2px solid var(--green);
+    border: 2px solid var(--yellow);
     border-radius: 10px;
     color: var(--foreground);
     background-color: var(--cardBackground);
@@ -315,7 +315,7 @@ nav [class*="fa-"]:hover {
     /*border: 2px solid var(--green);*/
     background: var(--green);
     /*background: var(--cardBackground);*/
-    background: linear-gradient(141deg, var(--green) 30%, var(--cyan) 100%);
+    background: linear-gradient(141deg, var(--yellow), var(--pink));
     border-radius: 10px;
     /*box-shadow: 0px 4px 32px -12px var(--green);*/
 }
@@ -335,7 +335,7 @@ nav [class*="fa-"]:hover {
     margin: 2rem 0 4rem 0;
     padding: 2px;
     background: var(--green);
-    background: linear-gradient(141deg, var(--green) 30%, var(--cyan) 100%);
+    background: linear-gradient(141deg, var(--yellow), var(--pink));
     border-radius: 10px;
 }
 
